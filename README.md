@@ -2,7 +2,7 @@
 
 Automatic Transmission Controller
 
-![Board](board.jpg?raw=true "Board")
+![Board](board.png?raw=true "Board")
 
 ## Features:
 * 12 output channels
