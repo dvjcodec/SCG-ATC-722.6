@@ -2,18 +2,14 @@
 
 Automatic Transmission Controller
 
-![Board](board.png?raw=true "Board")
-
 ## Features:
-* 12 output channels
-* optocouplers for each selenoid channel
 * pressure sensor input
 * temperature sensor input
-* 4x HALL or VR input
+* 2x HALL or VR input
 * 2x analog input
 * LCD output via SPI
 * USB
-* 5V regulator / LM2596
+* 2x 5V regulator
 * TPS input
 * Teensy 3.5
 * 722.6 (W202/W210) gear shifter direct input
@@ -31,4 +27,4 @@ Automatic Transmission Controller
 * [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
 
 ## Authors
-* [Krzysztof Dymianiuk @ Seaside Customs Garage](https://seasidecustoms.blogspot.com/)
+* [Krzysztof Dymianiuk @ Seaside Customs Garage](https://seasidecustoms.blogspot.com/) & Markus Kovero
