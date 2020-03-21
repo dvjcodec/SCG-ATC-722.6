@@ -22,6 +22,7 @@ Automatic Transmission Controller
 
 ## Designed for 7226ctrl firmware by Markus Kovero
 * [7226ctrl](https://github.com/mkovero/7226ctrl)
+* All nececery changes, needed to work with software for Windows, uploaded to firmware available in this Git. 
 
 ## License
 * [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
