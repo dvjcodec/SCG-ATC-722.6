@@ -20,6 +20,10 @@ Automatic Transmission Controller
 ### Connecting LCD
 * LCD via SPI
 
+# SCG-ATC 722.6 sorfware for Windows
+* Tested under Windows 7 (32bit/64bit) and Windows 10. Java environment required.
+* This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY !!
+
 ## Designed for 7226ctrl firmware by Markus Kovero
 * [7226ctrl](https://github.com/mkovero/7226ctrl)
 * All nececery changes, needed to work with software for Windows, uploaded to firmware available in this Git. 
