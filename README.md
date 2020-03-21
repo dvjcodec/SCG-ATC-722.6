@@ -2,6 +2,8 @@
 
 Automatic Transmission Controller
 
+![Board](board.jpg?raw=true "Board")
+
 ## Features:
 * pressure sensor input
 * temperature sensor input
