@@ -2,7 +2,7 @@
 
 Automatic Transmission Controller
 
-![Board](board.jpg?raw=true "Board")
+![Boards](boards.jpg?raw=true "Boards")
 
 ## Features:
 * pressure sensor input
@@ -26,7 +26,7 @@ Automatic Transmission Controller
 * Tested under Windows 7 (32bit/64bit) and Windows 10. Java environment required.
 * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY !!
 
-![Software](soft_pc.jpg?raw=true "Software")
+![Software](soft_win.jpg?raw=true "Software")
 
 ## Designed for 7226ctrl firmware by Markus Kovero
 * [7226ctrl](https://github.com/mkovero/7226ctrl)
