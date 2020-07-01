@@ -1,0 +1,83 @@
+Monitor portu szeregowego w Arduino - s³u¿y do podgl¹du parametrów i zmiany ustawieñ sterownika. 
+
+Rozpoczêcie pracy ze zmian¹ ustawieñ w kontrolerze - wpisaæ du¿¹ literkê H i zatwierdziæ Enterem
+Wyœwietlenie aktualnych nastaw w sterowniku - wpisaæ 8989:8989
+
+W oknie Monitora portu szeregowego przelatuj¹ sztbko parametry - proponujê na czas ustawieñ wy³¹czyæ odczyt parametrów na ¿ywo. Mo¿na to zrobiæ przez komendê 60000:60000;19:0
+
+Funkcje sterownika - komenda 60000:60000 dla zmiany parametru. 
+Przyk³adowo 60000:60000;7:0 - cyfra 7 to funkcja w sterowniku (tu obs³uga TPS) a 0 równe jest jego wy³¹czeniu (1 w³¹cza)
+
+1 - shifter control (always on)
+2 - radio enabled (external accesory)
+3 - manual mode
+4 - automatic mode
+5 - lockup
+6 - evalGear
+7 - TPS sensor
+8 - boost sensor
+9 - exhaust pressure sensor
+10 - W124 speedometer
+11 - W124 RPM meter
+12 - fuel pump control
+13 - rom speed
+14 - diff speed
+15 - adaptive
+16 - battery monitor
+17 - true power
+18 - debug enabled
+19 - datalogger
+20 - exhaust temp. sensor
+21 - boost limit
+22 - boost limit shift
+23 - resistive stick
+
+Mo¿na zmieniæ kilka parametrów jednoczeœnie wpisuj¹c przyk³adowo 60000:60000;7:1;22:0;23:0 (tu: TPS on, boost limit shift off, resistive stick off)
+
+--------------------------------------------------
+
+W trybie manualnym (jeœli nie ma pod³¹czonego TPS-u) mo¿na ustawiæ ciœnienia prze³¹czania (w %). S³u¿¹ do tego komendy 440:440: (dla biegów "do góry") oraz 550:550: (dla biegów "w dó³"), przyk³adowo
+
+440:440:1:100 - ta funkcja ustawia ciœnienie prze³¹czania z 1 na 2 na 100%
+
+440:440:1 - 1 na 2
+440:440:2 - 2 na 3
+440:440:3 - 3 na 4
+440:440:4 - 4 na 5
+
+Biegi w dó³, przyk³adowo 550:550:2:50 - prze³¹czanie z 2 na 1 50%
+
+550:550:2 - 2 na 1
+550:550:3 - 3 na 2
+550:550:4 - 4 na 3
+550:550:5 - 5 na 4
+
+---------------------------------------------------
+
+Zmiana parametrówq sterownika dostêpna jest pod funkcj¹ 50000:50000
+
+50 - boost max
+51 - boost drop
+52 - boost spring
+53 - fuel max rpm
+54 - max rpm
+55 - tire width
+56 - tire profile
+57 - tire inches
+58 - diff ratio
+59 - rear dif teeth
+60 - next shift delay
+61 - max slip
+62 - stall speed
+63 - battery limit
+64 - first tcc gear
+65 - trigger wheel teeth
+66 - TPS agre
+67 - trans sloppy
+68 - high rpm shift limit
+69 - low rpm shift limit
+
+------------------------------------------------------------
+
+
+ 
