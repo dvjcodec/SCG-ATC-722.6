@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+html, body, #root, .App, .swipecontainer {
+  height: 100%;
+  overflow: hidden;
+}
